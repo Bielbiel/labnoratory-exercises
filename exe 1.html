@@ -1,55 +1,105 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>  <link rel="stylesheet" href="exexe.css">
-    </head>
+<head>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="exexe.css">
+</head>
 <body>
-    <form>
 
-                                   <input id="submit" name="submit" type="submit" value="sing in">
-            <h1>Registation</h1>
 
-        <div>
-            <label>Fist Name</label>
-            <input type="text">
+<div class="container">
+
+    <div class='navbar navbar-default navbar-static-top'>
+        <div class='container'>
+            <a href='index.html' class='navbar-brand'>Regrestration</a>
+
+            <ul class='nav navbar-nav navbar-right'>
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                </div>
+
+            </ul>
         </div>
+    </div>
 
-        <div>
-            <label>Last Name</label>
-            <input type="text">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6  col-md-7 col-sm-8 col-xs-9">
+                <div>
+
+                    <form class="form-horizontal">
+
+                        <div class="form-group">
+                            <label for="inputName3" class="col-sm-2 control-label">First Name</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" id="inputName3" placeholder="First Name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputrLastN" class="col-sm-2 control-label">Last Name</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" id="inputrLastN" placeholder="Last Name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Repeat password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3"
+                                       placeholder="Repeat password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputdate" class="col-sm-2 control-label">Date of birdh</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" id="inputdate" placeholder="DD-MM-RRRR">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"
+                                               checked>
+                                        Male
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"
+                                               checked>
+                                        Female
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">Sign up</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
         </div>
-
-        <div>
-            <label>Password</label>
-            <input type="text">
-        </div>
-
-        <div>
-            <label>Repeat Password</label>
-            <input type="text">
-        </div>
-
-        <div>
-            <label>Email</label>
-            <input type="text">
-        </div>
-
-        <div>
-            <label>Date of Brd</label>
-            <input type="text">
-        </div>
-
-        <div>
-        <h2>male</h2>
-        <h2>female</h2>
+    </div>
 </div>
-
-
-        <input id="submit" name="submit" type="submit" value="sing up">
-</form>
 </body>
-
-
 
 
 

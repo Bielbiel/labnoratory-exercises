@@ -1,42 +1,12 @@
-nav {
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-
-}
-.buttons {
-    float:left;
-}
-.sign-in {
-    float:right;
+label, input {
+    display: inline-block;
 }
 
-fieldset {
-    padding: lem;
-    font:80% sans-serif;
-}
 label {
-    width:45%;
-    margin-right:0.5em;
-    padding-top:0.2em;
-    text-align:right;
-    font-weight:bold;
+    width: 60%;
+    text-align: left;
 }
-.signin-box {
-    display: block;
-    margin:0 auto;
-    width:60%;
-
-}
-.signin-header {
+.singin
+{
     float:right;
-
-    position:relative;
-    right:30px;
-
-
-}
-.sing-out {
-    relative:50px 50px 0 0;
-
-
 }
